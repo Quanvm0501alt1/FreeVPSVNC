@@ -1,3 +1,6 @@
+# git clone https://github.com/foxytouxxx/freeroot.git
+# cd freeroot
+# bash root.sh
 # sudo apt update && sudo apt install tigervnc-standalone-server qemu-kvm qemu-system-x86 openbox firefox neofetch kitty
 # git clone https://github.com/novnc/noVNC.git
 cd noVNC/
