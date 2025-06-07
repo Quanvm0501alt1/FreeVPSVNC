@@ -1,7 +1,13 @@
+# If you don't have root
+# Nếu bạn dell có root
 # git clone https://github.com/foxytouxxx/freeroot.git
 # cd freeroot
 # bash root.sh
+# Nhớ gõ YES
+# Dùng
 # sudo apt update && sudo apt install tigervnc-standalone-server qemu-kvm qemu-system-x86 openbox firefox neofetch kitty
+# hoặc
+# apt install sudo curl wget build-essential cmake make firefox kitty fluxbox openbox tigervnc-standalone-server
 # git clone https://github.com/novnc/noVNC.git
 cd noVNC/
 sudo vncserver -SecurityTypes none -xstartup "openbox" -rfbport 5080
