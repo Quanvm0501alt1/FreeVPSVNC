@@ -7,7 +7,7 @@
 # Dùng / Use
 # sudo apt update && sudo apt install tigervnc-standalone-server qemu-kvm qemu-system-x86 openbox firefox neofetch kitty
 # hoặc / or
-# apt install sudo curl wget build-essential cmake make firefox kitty fluxbox openbox tigervnc-standalone-server git
+# apt install sudo curl wget build-essential cmake make firefox kitty fluxbox openbox tigervnc-standalone-server git xterm x11-xserver-output-drivers
 # git clone https://github.com/novnc/noVNC.git
 cd noVNC/
 sudo vncserver -SecurityTypes none -xstartup "openbox" -rfbport 5080
