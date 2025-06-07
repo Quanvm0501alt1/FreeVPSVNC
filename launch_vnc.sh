@@ -4,9 +4,9 @@
 # cd freeroot
 # bash root.sh
 # Nhớ gõ YES
-# Dùng
+# Dùng / Use
 # sudo apt update && sudo apt install tigervnc-standalone-server qemu-kvm qemu-system-x86 openbox firefox neofetch kitty
-# hoặc
+# hoặc / or
 # apt install sudo curl wget build-essential cmake make firefox kitty fluxbox openbox tigervnc-standalone-server
 # git clone https://github.com/novnc/noVNC.git
 cd noVNC/
