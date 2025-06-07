@@ -12,7 +12,7 @@
 printf "#!/bin/sh\n\
 unset SESSION_MANAGER\n\
 unset DBUS_SESSION_BUS_ADDRESS\n\
-exec fluxbox"
+exec fluxbox" > ~/.vnc/xstartup
 cd noVNC/
 sudo vncserver -SecurityTypes none -xstartup "openbox" -rfbport 5080
 echo "Wait for 3 sec before start VNC client..."
