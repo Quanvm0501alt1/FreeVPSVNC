@@ -13,6 +13,12 @@ printf "#!/bin/sh\nunset SESSION_MANAGER\nunset DBUS_SESSION_BUS_ADDRESS\nexec f
 printf "#!/bin/sh\nunset SESSION_MANAGER\nunset DBUS_SESSION_BUS_ADDRESS\nexec fluxbox" > /root/.vnc/xstartup
 chmod +x ~/.vnc/xstartup
 chmod +x /root/.vnc/xstartup
+mkdir -p ~/.vnc
+touch ~/.vnc/passwd
+chmod 600 ~/.vnc/passwd # Important for security
+mkdir -p /root/.vnc
+touch /root/.vnc/passwd
+chmod 600 /root/.vnc/passwd # Important for security
 cd noVNC/
 sudo vncserver -SecurityTypes none -xstartup "openbox" -rfbport 5080
 echo "Wait for 3 sec before start VNC client..."
