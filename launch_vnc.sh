@@ -9,6 +9,10 @@
 # hoặc / or
 # apt install sudo curl wget build-essential cmake make firefox kitty fluxbox openbox tigervnc-standalone-server git xterm x11-xserver-output-drivers websockify
 # git clone https://github.com/novnc/noVNC.git
+printf "#!/bin/sh\n\
+unset SESSION_MANAGER\n\
+unset DBUS_SESSION_BUS_ADDRESS\n\
+exec fluxbox"
 cd noVNC/
 sudo vncserver -SecurityTypes none -xstartup "openbox" -rfbport 5080
 echo "Wait for 3 sec before start VNC client..."
