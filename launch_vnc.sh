@@ -5,9 +5,9 @@
 # bash root.sh
 # Nhớ gõ YES
 # Dùng / Use
-# sudo apt update && sudo apt install curl wget build-essential cmake make firefox kitty fluxbox openbox tigervnc-standalone-server git xterm websockify qemu-kvm qemu-system-x86 tint2 python-numpy
+# sudo apt update && sudo apt install curl wget build-essential cmake make firefox kitty fluxbox openbox tigervnc-standalone-server git xterm websockify qemu-kvm qemu-system-x86 tint2
 # hoặc / or
-# apt update && apt install sudo curl wget build-essential cmake make firefox-esr kitty fluxbox openbox tigervnc-standalone-server git xterm websockify qemu-kvm qemu-system-x86 tint2 python-numpy
+# apt update && apt install sudo curl wget build-essential cmake make firefox-esr kitty fluxbox openbox tigervnc-standalone-server git xterm websockify qemu-kvm qemu-system-x86 tint2
 # git clone https://github.com/novnc/noVNC.git
 printf "#!/bin/sh\nunset SESSION_MANAGER\nunset DBUS_SESSION_BUS_ADDRESS\nexec fluxbox" > ~/.vnc/xstartup
 printf "#!/bin/sh\nunset SESSION_MANAGER\nunset DBUS_SESSION_BUS_ADDRESS\nexec fluxbox" > /root/.vnc/xstartup
