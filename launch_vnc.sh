@@ -20,7 +20,7 @@ mkdir -p /root/.vnc
 touch /root/.vnc/passwd
 chmod 600 /root/.vnc/passwd # Important for security
 cd noVNC/
-sudo vncserver -SecurityTypes none -xstartup "openbox && tint2" -rfbport 5080
+sudo vncserver -SecurityTypes none -xstartup "openbox | tint2" -rfbport 5080
 echo "Wait for 3 sec before start VNC client..."
 sleep 3
 sudo ./utils/novnc_proxy --vnc 127.0.0.1:5080 --listen localhost:8080
