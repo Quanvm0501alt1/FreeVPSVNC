@@ -41,7 +41,7 @@ sleep 5
 
 echo "Starting noVNC proxy..."
 # Navigate to the noVNC directory
-cd /app/noVNC
+cd noVNC/
 
 # Start the noVNC proxy
 # It listens on 0.0.0.0:${PORT} (exposed by Docker)
