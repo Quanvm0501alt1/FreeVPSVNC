@@ -7,7 +7,7 @@
 # Dùng / Use
 # sudo apt update && sudo apt install curl wget build-essential cmake make firefox kitty fluxbox openbox tigervnc-standalone-server git xterm x11-xserver-output-drivers websockify qemu-kvm qemu-system-x86
 # hoặc / or
-# apt install sudo curl wget build-essential cmake make firefox kitty fluxbox openbox tigervnc-standalone-server git xterm x11-xserver-output-drivers websockify qemu-kvm qemu-system-x86
+# apt update && apt install sudo curl wget build-essential cmake make firefox kitty fluxbox openbox tigervnc-standalone-server git xterm x11-xserver-output-drivers websockify qemu-kvm qemu-system-x86
 # git clone https://github.com/novnc/noVNC.git
 printf "#!/bin/sh\nunset SESSION_MANAGER\nunset DBUS_SESSION_BUS_ADDRESS\nexec fluxbox" > ~/.vnc/xstartup
 printf "#!/bin/sh\nunset SESSION_MANAGER\nunset DBUS_SESSION_BUS_ADDRESS\nexec fluxbox" > /root/.vnc/xstartup
