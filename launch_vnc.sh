@@ -9,8 +9,8 @@
 # hoặc / or
 # apt update && apt install sudo curl wget build-essential cmake make firefox-esr kitty fluxbox openbox tigervnc-standalone-server git xterm websockify qemu-kvm qemu-system-x86 tint2 -y
 # Chrome install
-# sudo apt update && sudo apt install wget
-# apt update && apt install wget -y
+# sudo apt update && sudo apt install wget gnupg -y
+# apt update && apt install wget gnupg -y
 # wget -O- https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor | sudo tee /usr/share/keyrings/google-chrome.gpg > /dev/null
 # echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
 # Cách cài: / Ways to install
