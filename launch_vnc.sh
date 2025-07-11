@@ -5,9 +5,9 @@
 # bash root.sh
 # Nhớ gõ YES
 # Dùng / Use
-# sudo apt update && sudo apt install curl wget build-essential cmake make firefox kitty fluxbox openbox tigervnc-standalone-server git xterm websockify qemu-kvm qemu-system-x86 tint2 -y
+# sudo apt update && sudo apt install curl wget build-essential cmake make firefox kitty fluxbox openbox tigervnc-standalone-server git websockify qemu-kvm qemu-system-x86 tint2 -y
 # hoặc / or
-# apt update && apt install sudo curl wget build-essential cmake make firefox-esr kitty fluxbox openbox tigervnc-standalone-server git xterm websockify qemu-kvm qemu-system-x86 tint2 -y
+# apt update && apt install sudo curl wget build-essential cmake make firefox-esr kitty fluxbox openbox tigervnc-standalone-server git websockify qemu-kvm qemu-system-x86 tint2 -y
 # Chrome install
 # sudo apt update && sudo apt install wget gnupg -y
 # apt update && apt install wget gnupg -y
