@@ -17,6 +17,7 @@
 # sudo apt update && sudo apt install build-essential cmake google-chrome-stable kitty fluxbox openbox tigervnc-standalone-server git websockify qemu-kvm qemu-system-x86 tint2 -y
 # Hoặc / or:
 # apt update && apt install build-essential cmake make google-chrome-stable kitty fluxbox openbox tigervnc-standalone-server git websockify qemu-kvm qemu-system-x86 tint2 -y
+# Install noVNC
 # git clone https://github.com/novnc/noVNC.git
 # printf "#!/bin/sh\nunset SESSION_MANAGER\nunset DBUS_SESSION_BUS_ADDRESS\nexec fluxbox" > ~/.vnc/xstartup
 # printf "#!/bin/sh\nunset SESSION_MANAGER\nunset DBUS_SESSION_BUS_ADDRESS\nexec fluxbox" > /root/.vnc/xstartup
